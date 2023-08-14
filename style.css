@@ -1,0 +1,70 @@
+body{
+    background-color: #FFFFFF;
+}
+header {
+    color: #FFFFFF;
+    background-color: #F7A31B;
+    height: 80px;
+}
+h1{
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+
+marquee{
+    font-size: 20px;
+    font-weight: bolder;
+}
+main {
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    padding: auto;
+    align-items: center;
+}
+
+main ul li, .box {
+    display: inline-block;
+}
+
+li+li::before {
+    padding: 50px;
+}
+
+li {
+    vertical-align: middle;
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border: 10px solid #F7A31B;
+    margin: 70px;
+    font-weight: bolder;
+    filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.15));
+}
+img{
+    padding-top: 10%;
+
+}
+#describe_goods{
+    padding-top: 50px;
+}
+#describe_booth{
+    padding-top: 20px;
+}
+#describe_stage{
+    padding-top: 35px;
+}
+footer {
+    
+    height: 40px;
+    background-color: black;
+    height: 50px;
+}
+
+#link {
+    padding-top: 13px;
+    color: #FFFFFF;
+}

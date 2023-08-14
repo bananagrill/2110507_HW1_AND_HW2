@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "th">
+    <head>
+        <title>แบบฟอร์มลงทะเบียนจัดบูธ</title>
+        <link rel = "stylesheet" href="form_style.css">
+        <script src="register.js"></script> 
+    </head>
+      <body>
+        <header>
+            <h1>Whereas recognition of the inherent dignity</h1>
+        </header>
+        <h2>แบบฟอร์มลงทะเบียนจัดบูธ</h2>
+        <form>
+            <p>
+                 <label for="company_name"> ชื่อบริษัท : </label>
+                 <input type="text" class="question" name="company_name" id ="company_name" placeholder="ชื่อบริษัท">
+            </p>
+            <p>
+                <label for="name">ชื่อ ผู้ติดต่อ : </label>
+                <input type="text" class="question" id="name" name="name" placeholder="ชื่อ-นามสกุล">
+            </p>
+            <p>
+                <label for="tel">เบอร์โทรศัพท์ ผู้ติดต่อ : </label>
+                <input type="text" class="question" id="tel" name="tel" placeholder="0XX-XXX-XXXX">
+            </p>
+            <p>
+                <label  for="chair">จำนวนเก้าอี้ที่ต้องการ : </label>
+                <input type="number" class="question" id="chair" name="chair" placeholder="จำนวนเก้าอี้" >
+            </p>
+            <p>
+                <label for="booth_size">ขนาดบูธ : </label>
+                <select name="booth_size" id="booth_size" class="question">
+                    <option value="not_choose"> กรุณาเลือกขนาดบูธ</option>
+                    <option value="10x10"> 10x10 ฟุต</option>
+                    <option value="10x15"> 10x15 ฟุต</option>
+                </select>
+            </p>
+            <p>
+                <label>ต้องการโต๊ะภายในบูธหรือไม่ : </label>
+                <input type="checkbox" id="need" name="need">
+                <label for="need">ต้องการ</label>
+                <input type="checkbox" id="no" name="no">
+                <label for="no">ไม่ต้องการ</label>
+            </p>
+            <p>
+                <input type="submit" id="button" value="submit" onclick="getData()"/>
+            </p>
+        </form>
+        <footer>
+            <p id="link">สอบถามข้อมูลเพิ่มเติมได้ที่ Tel. 0XX-XXX-XXXX หรือ XXXXXXX@gmail.com</p>
+         </footer>
+      </body>
+</html>

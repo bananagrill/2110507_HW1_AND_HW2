@@ -1,0 +1,43 @@
+
+header{
+    color: #FFFFFF;
+    background-color: #F7A31B;
+    height: 90px;
+}
+h1{
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+h2{
+    background-color: #D4D4D4;
+    height: 55px;
+    padding-top: 20px;
+    text-align: center;
+}
+form{
+    padding: 20px;
+    width: 900px;
+    text-align:right;
+}
+.question {
+   width: 150px;
+}
+label {
+    display: inline-block;
+    vertical-align: top;
+}
+#button{
+    display: block;
+    margin-left: 82%;
+}
+footer {
+    margin-top: 200px;
+    height: 40px;
+    background-color: black;
+    height: 50px;
+}
+#link {
+    padding-top: 13px;
+    color: #FFFFFF;
+}
